@@ -8,7 +8,7 @@ namespace Domain.Interfaces
         // Henter alle dyr
         List<Animal> GetAll();
 
-        // Henter ét dyr baseret på ID
+        // Henter et dyr baseret på dets id
         Animal GetById(int id);
 
         // Gemmer hele listen af dyr (bruges fx efter ændringer i VisitLog)

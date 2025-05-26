@@ -11,13 +11,13 @@ namespace Domain.Interfaces
         // Tilføjer en ny medarbejder
         void Add(Employee employee);
 
-        // Fjerner en medarbejder baseret på ID
+        // Fjerner en medarbejder baseret på id
         void RemoveById(int id);
 
-        // Henter en bestemt medarbejder (valgfrit – bruges hvis du vil vise detaljer)
+        // Henter en bestemt medarbejder 
         Employee GetById(int id);
 
-        // Gemmer hele listen (hvis du arbejder med filer/lister som data)
+        // Gemmer hele listen 
         void SaveAll(List<Employee> employees);
     }
 }

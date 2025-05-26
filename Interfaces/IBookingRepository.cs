@@ -7,6 +7,6 @@ namespace Domain.Interfaces
     {
         List<Visit> GetAll();     // Henter alle bookinger
         void Add(Visit visit);    // Tilføjer ny booking
-        void SaveAll(List<Visit> visits); // Gemmer listen (valgfrit)
+        void SaveAll(List<Visit> visits); // Gemmer listen
     }
 }
