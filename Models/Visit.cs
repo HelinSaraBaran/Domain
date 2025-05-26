@@ -3,6 +3,7 @@
     // Model for et besøg/bookingaftale
     public class Visit
     {
+        public int Id { get; set; }                // Unikt ID for besøget
         public string VisitorName { get; set; }     // Navn på personen der booker
         public string Email { get; set; }           // Emailadresse
         public DateTime VisitDate { get; set; }     // Dato for besøget
